@@ -24,7 +24,7 @@ public class TestDataInit {
         itemRepository.save(new Item("itemA", 10000, 10));
         itemRepository.save(new Item("itemB", 20000, 20));
 
-        memberRepository.save(Member.of("test", "test!", "테스터"));`
+        memberRepository.save(Member.of("test", "test!", "테스터"));
     }
 
 }
