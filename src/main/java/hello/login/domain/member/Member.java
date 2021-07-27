@@ -12,7 +12,7 @@ import javax.validation.constraints.NotEmpty;
 
 @Entity
 @Getter @Setter
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@NoArgsConstructor
 public class Member {
 
     @Id
